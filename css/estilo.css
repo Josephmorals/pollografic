@@ -1,44 +1,8 @@
-/*.gridIndex{
-    display: grid;
-    grid-template-areas: 
-    "navIzq logo navDer"
-    "main main main"
-    "footer footer footer";
-    grid-template-columns: repeat(3, 33%);
-    grid-template-rows: repeat(3, auto);
-}*/
-header{grid-area: logo;}
-.navIzq{grid-area: navIzq;display: flex; flex-direction: column;flex-wrap: nowrap;font-size: 60px;}
-.navDer{grid-area: navDer;display: flex; flex-direction: row;flex-wrap: nowrap;font-size:60px ;}
-main{
-    grid-area: main;
-    display: grid;
-    grid-template-areas: 
-    "fullWidth fullWidth fullWidth"
-    "encabezado encabezado encabezado"
-    "carIzq cardCen cardDer"
-    "section section section"
-    "img img img";
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, auto);
-}
-.fullWidth{grid-area: fullWidth;}
-.encabezado{grid-area: encabezado;font-size: 20px; }
-.carIzq{grid-area: carIzq;text-align: center;}
-.cardCen{grid-area: cardCen;text-align: center;}
-.cardDer{grid-area: cardDer;text-align: center;}
-section{grid-area: section;}
-.tresimg{grid-area: img;display: flex; flex-direction: row;flex-wrap: nowrap;}
-.muestra{width: 600px;}
-footer{grid-area: footer;display: flex; justify-content: spam;}
-.fondo{height: auto;width: auto;}
-.logo{height: 300px;}
-.baner{height: 1200px;width: 4200px;}
-.muestra {height: 900px;width: 1200px;}
+
 p{
   text-align: center;
   line-height: 25px;
-  font-size: 25px;
+  font-size: 50px;
 }   
  a{
   text-decoration: none; 
@@ -57,17 +21,7 @@ h1{
   html{
   font-size: 62,5%;
 }
-.inicio li{
-  list-style-type: none;
-  font-size: 15px;
-  padding: 10px;
-  margin: 10px;
-  display: inline;
-  text-align: center;
-}
-    html{
-  font-size: 62,5%;
-}
+
 h1{
     color: white;
 }
@@ -83,29 +37,27 @@ h1{
     font-size: 190px;
     font-style: helvetica;
 }
-/*VISTA MOBILE*/
-  
+.muestra {
+    height: 800px; width: 800px;
+    overflow: hidden;
+}
+.imgig{
+    display: inline-block;
+    float: left;
+} 
+.pie{
+    font-size: 60px;
+    text-align: center;
+    background-color: f5f100;
+    font-style: helvetica;
+}
+.rrss{
+    display: inline-block;
+    text-align: center;
+    font-size: 100px;
+}
+@media only screem and (max-width: 600px)
 
-/*@media only screen and (max-width: 600px){
-  gridIndex{
-     display: grid;
-     grid-template-areas: 
-     "logo logo"
-     "navIzq navDer"
-     "main main"
-     "footer footer";
-     grid-template-columns: repeat(4, 1fr);
-     grid-template-rows: repeat(1, auto);
-}*/
-h1{height: auto;width: auto;height: 150px; width: 380px;text-align: center;
-  font-size: 55px;}
-header{grid-area: logo;}
-.navIzq{grid-area: navIzq;font-size: 15px;}
-.navDer{grid-area: navDer;font-size: 15px;}
-/*main{grid-area: main;}*/
-footer{grid-area: footer;}
-.gridIndex{flex-direction: column;}
-.muestra{width: 200px; height: 400px;display: none;}
-.logo{height: 100px;}
-.cardCen{text-align: center;}
-.baner{height: 150px; width: 380px;}
+.llegamos{
+    font-size:40px; 
+}
