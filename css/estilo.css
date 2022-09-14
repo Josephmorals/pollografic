@@ -1,63 +1,52 @@
 
-p{
-  text-align: center;
-  line-height: 25px;
-  font-size: 50px;
-}   
- a{
-  text-decoration: none; 
-}
-ul li{
-  text-decoration: none;
-  list-style-type: none;
-}
-h1{
-  font-family: ;
-  text-align: center;
-  font-size: 90px;
-  font-style: helvetica;
-  background-color: orange;
-}
   html{
   font-size: 62,5%;
 }
-
 h1{
     color: white;
 }
-.bgColor{
-    background-color: orange ;
-}
-.inicio{
-    text-align: center;
 
-}
-.texto{
-    text-align: center;
-    font-size: 190px;
-    font-style: helvetica;
-}
-.muestra {
-    height: 800px; width: 800px;
-    overflow: hidden;
-}
-.imgig{
-    display: inline-block;
-    float: left;
-} 
-.pie{
+.container{
     font-size: 60px;
-    text-align: center;
-    background-color: f5f100;
-    font-style: helvetica;
+    float: left;
+    justify-content: center;   
 }
-.rrss{
-    display: inline-block;
-    text-align: center;
-    font-size: 100px;
-}
-@media only screem and (max-width: 600px)
-
 .llegamos{
-    font-size:40px; 
+    background: orange;
+    font-size: 90px;
+    text-align: center;
+}
+.contenedorColumna{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+}  
+.columnasx3 img{
+    width: 100%;
+} 
+.piePagina{
+    background: orange;
+    text-align: center;
+}
+.nosotros{
+    color: white;
+    font-size: 190px;
+    text-align: center;
+}
+.sub{
+    font-size: 70px;
+    color: white;
+}
+.grupo2{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 10px;
+}
+.sig{
+    color: white;
+    font-size: 150px;
+}
+.redesSociales{
+    font-size: 120px;
+
 }
